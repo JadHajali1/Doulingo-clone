@@ -11,14 +11,9 @@ body{
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: #fcf9ff ;
+    background-color:white ;
     min-height: 100%;
 }
-
-main{
-    flex: 1;
-}
-
 
 header{
     display: flex;
@@ -40,6 +35,76 @@ header button{
     color: #a1a0a0;
     cursor: pointer;
 }
+
+main{
+    flex: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 80px;
+}
+
+
+.hero .hero-img{
+    padding-right: 50px;
+    margin-left: 80px;
+    
+}
+
+.hero .hero-img img{
+    height: 360px;
+    width: 480px;
+}
+
+.hero .hero-button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.hero .hero-button .hero-h1{
+    padding-bottom: 50px;
+    font-size: 34px;
+    color: #555555;
+    font-family: 'Poppins','Segoe UI', 'Nunito', sans-serif;
+}
+
+
+.hero .hero-button .btn{
+    padding: 15px 40px;
+    border-radius: 12px;
+    margin: 10px 0;
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    max-width: 340px;
+    width: 100%;
+}
+
+.hero .hero-button .btn-start{
+    background-color: #60d705;
+    color: white;
+    border: none;
+    box-shadow: 0 4px #48a504;;
+}
+
+.hero .hero-button .btn-account{
+    color: #0debef;
+    background-color: white;
+    border: 2px solid #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
+
 
 
 footer{
@@ -82,7 +147,7 @@ footer .footer-links .a-footer{
 }
 
 footer .footer-language{
-    border-top: 1px solid #faf7f733;
+    border-top: 1px solid #f3ececc0;
     margin-top: 30px;
     padding-top: 30px;
     margin-bottom: 60px;
